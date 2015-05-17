@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="gnuton/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" />
+  <project name="gnuton/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" />
+  <project name="gnuton/android_hardware_samsung" path="hardware/samsung" remote="github" />
+<project path="bootable/recovery" name="gnuton/android_bootable_recovery" groups="pdk" revision="android-5.1"/>
+<project name="gnuton/cyanogenod-build-extras" path="build-extras" remote="github" />
+<!--
+<project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
+-->
+<project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
+
+</manifest>
